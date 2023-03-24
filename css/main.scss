@@ -1,0 +1,77 @@
+$page-background-color:#e64448;
+$page-offwhite-color:#e1e2df;
+$page-yellow-color:#eab244;
+body {
+  width: 400px;
+  margin: auto;
+  background-color: $page-background-color;
+}
+
+header {
+  background-color: #fff;
+  padding-left: 5px;
+}
+
+.logo {
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.local {
+  display: block;
+  background-color: $page-background-color;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  h1 {
+    color: #3c3a48;
+  }
+  p {
+    color: $page-yellow-color;
+  }
+}
+
+.bikes {
+  background-color: $page-offwhite-color;
+  text-align: center;
+}
+
+.signup {
+  display: block;
+  background-color: #89c5c7;
+  color: #0b354b;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  
+  h1 {
+    color: #696c6d;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.about {
+  display: block;
+  background-color: $page-yellow-color;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  
+  h1 {
+    color: $page-background-color;
+  }
+  
+  p {
+    color: $page-offwhite-color;
+  }
+}
