@@ -1,0 +1,28 @@
+@use "/css/partials/colors";
+.bikes {
+    background-color: $page-offwhite-color;
+    text-align: center;
+  }
+  
+  .signup {
+    display: block;
+    background-color: #89c5c7;
+    color: #0b354b;
+    @include section-padding;
+    
+    h1 {
+      color: #696c6d;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  

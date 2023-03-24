@@ -1,0 +1,39 @@
+@use "/css/partials/colors";
+
+header {
+    background-color: #fff;
+    padding-left: 5px;
+  }
+  
+  .logo {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .local {
+    display: block;
+    background-color: $page-background-color;
+    @include sections.section-padding;
+    h1 {
+      color: #3c3a48;
+    }
+    p {
+      color: $page-yellow-color;
+    }
+  } 
+
+  .about {
+    display: block;
+    background-color: $page-yellow-color;
+    @include section-padding;
+    
+    h1 {
+      color: $page-background-color;
+    }
+    
+    p {
+      color: $page-offwhite-color;
+    }
+  }
+  
